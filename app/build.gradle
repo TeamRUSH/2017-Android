@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
     defaultConfig {
-        applicationId "com.example.dbroo_000.cvtest1"
+        applicationId "net.teamrush27.vision2017.cvtest1"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
@@ -28,4 +28,9 @@ dependencies {
     compile project(':openCVLibrary310')
     testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.22'
+    compile group: 'eu.lp0.slf4j', name: 'slf4j-android', version: '1.7.21-1'
+
+
 }
